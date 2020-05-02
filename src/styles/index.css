@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+a {
+  display: inline-block;
+  transition: .3s;
+  text-decoration: none;
+  }
+  a:hover {
+  transform: rotate(15deg);
+  color: green;
+  }
+*{
+  font-size: 15px;
+  font-weight: 400;
+}
+input {
+  max-width: 500px;
+}
+input[type=text] ,input[type=password],.button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+input[type=button],.button,button,input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.gray {
+  color: #828282;
+}
+
+.orange {
+  background-color: #ff6600;
+}
+
+.background-gray {
+  background-color: rgb(246,246,239);
+}
+
+.f11 {
+  font-size: 11px;
+}
+
+.w85 {
+  width: 85%;
+}
+
+.button {
+  font-family: monospace;
+  font-size: 10pt;
+  color: black;
+  background-color: buttonface;
+  text-align: center;
+  padding: 2px 6px 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  cursor: pointer;
+  max-width: 250px;
+}
+.vote-button{
+  cursor: pointer;
+}
+
+a ,.ml1.pointer.black{
+  color: red;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
+.button {
+  padding: 10px 0;
+  background-color: aqua;
+  font-weight: 600;
+  font-size: 15px;
+}
